@@ -279,12 +279,24 @@ window.onload=function(){
         if(content[page].pageN == 15){
             page = 19
             optionOneButton.innerHTML = "Overgrown Path"
-            optionTwoButton.innerHTML = "Safe Path"
+            optionTwoButton.innerHTML = "Clear Path"
         }
         if(content[page].pageN == 21){
             page = 22
             optionOneButton.innerHTML = "Live With Witch"
             optionTwoButton.innerHTML = "Leave"
+            let htmlDoc = document.querySelector('html')
+            htmlDoc.style.backgroundColor = "#2F875E"
+            output.style.backgroundColor = "#2F875E"
+            output.style.color = "white"
+            nextButton.style.color = "lightgreen"
+            nextButton.style.borderColor = "lightgreen"
+            optionOneButton.style.color = "lightgreen"
+            optionOneButton.style.borderColor = "lightgreen"
+            optionTwoButton.style.color = "lightgreen"
+            optionTwoButton.style.borderColor = "lightgreen"
+            audioButton.style.color = "lightgreen"
+            audioButton.style.borderColor = "lightgreen"
             if(isPlaying == true) {
                 audio.pause()
             }
@@ -300,7 +312,7 @@ window.onload=function(){
         }
         if(content[page].pageN == 34){
             let htmlDoc = document.querySelector('html')
-            htmlDoc.style.backgroundColor = 'black'
+            htmlDoc.style.backgroundColor = "black"
             output.style.backgroundColor = "black"
             output.style.color = "red"
             nextButton.style.color = "red"
@@ -376,7 +388,19 @@ window.onload=function(){
         
         nextButton.innerHTML = "Next"
         page++
-                if(content[page].pageN == 31){
+        if(content[page].pageN == 31){
+            let htmlDoc = document.querySelector('html')
+            htmlDoc.style.backgroundColor = "darkgrey"
+            output.style.backgroundColor = "darkgrey"
+            output.style.color = "black"
+            nextButton.style.color = "lightgrey"
+            nextButton.style.borderColor = "lightgrey"
+            optionOneButton.style.color = "lightgrey"
+            optionOneButton.style.borderColor = "lightgrey"
+            optionTwoButton.style.color = "lightgrey"
+            optionTwoButton.style.borderColor = "lightgrey"
+            audioButton.style.color = "lightgrey"
+            audioButton.style.borderColor = "lightgrey"
             if(isPlaying == true) {
                 audio.pause()
             }
@@ -387,7 +411,19 @@ window.onload=function(){
                 audio.play()
             }
         }
-        if(content[page].pageN == 39){
+        if(content[page].pageN == 39 ||content[page].pageN == 28){
+            let htmlDoc = document.querySelector('html')
+            htmlDoc.style.backgroundColor = "#ddd4ca"
+            output.style.backgroundColor = "#ddd4ca"
+            output.style.color = "black"
+            nextButton.style.color = "white"
+            nextButton.style.borderColor = "#bcaa96"
+            optionOneButton.style.color = "white"
+            optionOneButton.style.borderColor = "#bcaa96"
+            optionTwoButton.style.color = "white"
+            optionTwoButton.style.borderColor = "#bcaa96"
+            audioButton.style.color = "white"
+            audioButton.style.borderColor = "#bcaa96"
             if(isPlaying == true) {
                 audio.pause()
             }
