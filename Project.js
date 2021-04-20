@@ -305,6 +305,8 @@ window.onload=function(){
             output.style.color = "red"
             nextButton.style.color = "red"
             nextButton.style.borderColor = "red"
+            audioButton.style.color = "red"
+            audioButton.style.borderColor = "red"
             page = 35
         }
         
