@@ -86,7 +86,7 @@ let content = [
         type: "choice"
     },
     {
-        pageC:  "Enticing as a mysterious bush and its contents may be, it feels like it’s a bit above your paygrade. You want a thrill, but not so much that you’d willingly walk yourself into a potentially prophetical situation. Carefully, you roll the page up and slip it back where you found it. Once you arrive in the next town, you report the corpse to the local magistrate, which takes a weight off your shoulders. <br><br>Outside the magistrate’s office, you take a long look at your surroundings. An inn, a tavern, some houses, an old lady getting her coin purse stolen, a blacksmith — Wait a minute!",
+        pageC:  "Enticing as a mysterious bush and its contents may be, it feels like it’s a bit above your paygrade. You want a thrill, but not so much that you’d willingly walk yourself into a potentially prophetical situation. Once you arrive in the next town, you report what you found to the local magistrate, which takes a weight off your shoulders. <br><br>Outside the magistrate’s office, you take a long look at your surroundings. An inn, a tavern, some houses, an old lady getting her coin purse stolen, a blacksmith — Wait a minute!",
         pageN: 16,
         img: "Images/Image16.png"
     },
