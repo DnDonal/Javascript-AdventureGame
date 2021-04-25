@@ -187,7 +187,7 @@ let content = [
         type: "choice"
     },
     {
-        pageC:  "You step forward before you have a chance to speak. <br><br>The demon grins as he thrusts his hand forward, a deep red glow emanating from his palm. The glow snakes around the room and splits into four, each curling around your limbs with supernatural speed. They converge at your chest and shoot up to your face, forcing themselves into your mouth, your nose, your eyes, your ears. Everything is red. Then, everything is black.<br><br>When you come to, you’re not sure who you are, but there’s a thrumming in your veins that’s begging to be released.",
+        pageC:  "You step forward but before you have a chance to speak. <br><br>The demon grins as he thrusts his hand forward, a deep red glow emanating from his palm. The glow snakes around the room and splits into four, each curling around your limbs with supernatural speed. They converge at your chest and shoot up to your face, forcing themselves into your mouth, your nose, your eyes, your ears. Everything is red. Then, everything is black.<br><br>When you come to, you’re not sure who you are, but there’s a thrumming in your veins that’s begging to be released.",
         pageN: 35,
         img: "Images/Image35.png"
     },
