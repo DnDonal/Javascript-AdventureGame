@@ -1,4 +1,4 @@
-let content = [
+let content = [ //Object array that has the page content and each of the images
     {
         pageC:  "Start, This is only here so I can think around the page numbers and the int easier",
         pageN: 0,
@@ -224,6 +224,7 @@ let page = 0
 
 let output = document.getElementById('output')   
 
+//audio file selection
 let audioFile = "Music/2020-02-22_-_Relaxing_Green_Nature_-_David_Fesliyan.mp3"
 let isPlaying = false
 let audio = new Audio(audioFile)
@@ -242,6 +243,7 @@ window.onload=function(){
     optionOneButton.style.display = "none"
     optionTwoButton.style.display = "none"
     
+    //audio functions
     audioButton.addEventListener('click', function () {
         if(isPlaying == false)
         {
@@ -258,11 +260,13 @@ window.onload=function(){
         }
     })
     
+    //volume functions
     volume.addEventListener('input', function() {
         audioSetting = this.value
         audio.volume = audioSetting
     })
     
+    //Choice button one options
     optionOneButton.addEventListener('click', function() {
         
         if(content[page].pageN == 2){
@@ -334,6 +338,8 @@ window.onload=function(){
         window.scrollTo(0,document.body.scrollHeight);
     })
     
+    
+    //Choice button two options
     optionTwoButton.addEventListener('click', function() {
         if(content[page].pageN == 2){
             page = 3
@@ -389,8 +395,8 @@ window.onload=function(){
         window.scrollTo(0,document.body.scrollHeight);
     })
     
+    //next and start button code
     nextButton.addEventListener('click', function() {
-        
         nextButton.innerHTML = "Next"
         page++
         if(content[page].pageN == 31){
